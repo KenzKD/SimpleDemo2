@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Food Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 17ab3ce2f043a2341bec1ba116fc3e54, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 688692208ef550f448e2347ce2d8a2a2: 21300000
+    - 111d8a2004ad7c64d896aac67f9cd420: 21300000
+    - 573576c0f79a0374db1286c49f2db185: 21300000
+    - e3b46c61bcc83e74bace2f4f7f0c0c14: 21300000
+    - 1d95af61f5ce41f4aa26004ea4da18ea: 21300000
+    - 411ef67106b75864cbdff43621ce7bc6: 21300000
+    - 4918f181bb854f7429b53874e3c377e4: 21300000
+    - 1e7835c1be096024c972062ba496979b: 21300000
+    - adbac342c68e9884cb271c95e389e8eb: 21300000
+    - b05044629f22ba5479e9354476b893a7: 21300000
+    - 5bfed6a37f0ae2c4db86b6641af3ad61: 21300000
+    - 0b33ad748a379d64386ea91ef9175e9b: 21300000
+    - 4bec33b482e80904690486a3f71e57c7: 21300000
+    - 405519c4d85397b4fa370d1ff17b1df2: 21300000
+    - 820b8ed47c3b17a4ca17aea75a397fdc: 21300000
+    - af0fd565b7dff7d4098cf13d88e63905: 21300000
+    - b48191d5721bc1c4ea432d31e5a78176: 21300000
+    - 0a7761e5673ddef4abc40ff6a3c95204: 21300000
+    - 27c55a469ea54394fae7c6fe61aefbea: 21300000
+    - dfbe68866b0b955459afa3f10488ba2b: 21300000
+    - 1bc7dbc663166d347ab5ddd11c9e5d41: 21300000
+    - 6275d697b821a34449577567eaf5ca43: 21300000
+    - 81cb63083cfe08344aabc2feff59897f: 21300000
+    - 14fa0898ca11d6f448a4816da3bb7d17: 21300000
+    - cfe6d9e801d079f44bb9ca501033ad94: 21300000
+    - 1b39df1954b0f9549b0b3c4b07d904cf: 21300000
+    - 04e2fb29b6137f644a5971fa670cac55: 21300000
+    - 04654da952ba8ab459870e33698df075: 21300000
+    - 5850d8c99c75faa41b874e1b4a8cbfd4: 21300000
+    - 28d802da8c65b01458ed86d3df56b58e: 21300000
+    - 53f9614d1cb498741823da27f3e4d739: 21300000
+    - c623e6de1f4ac12408905764f299c522: 21300000
+    - be667c0fe26344b4fa73565f25a527b3: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 688692208ef550f448e2347ce2d8a2a2, type: 3}
+  - {fileID: 21300000, guid: 111d8a2004ad7c64d896aac67f9cd420, type: 3}
+  - {fileID: 21300000, guid: 573576c0f79a0374db1286c49f2db185, type: 3}
+  - {fileID: 21300000, guid: e3b46c61bcc83e74bace2f4f7f0c0c14, type: 3}
+  - {fileID: 21300000, guid: 1d95af61f5ce41f4aa26004ea4da18ea, type: 3}
+  - {fileID: 21300000, guid: 411ef67106b75864cbdff43621ce7bc6, type: 3}
+  - {fileID: 21300000, guid: 4918f181bb854f7429b53874e3c377e4, type: 3}
+  - {fileID: 21300000, guid: 1e7835c1be096024c972062ba496979b, type: 3}
+  - {fileID: 21300000, guid: adbac342c68e9884cb271c95e389e8eb, type: 3}
+  - {fileID: 21300000, guid: b05044629f22ba5479e9354476b893a7, type: 3}
+  - {fileID: 21300000, guid: 5bfed6a37f0ae2c4db86b6641af3ad61, type: 3}
+  - {fileID: 21300000, guid: 0b33ad748a379d64386ea91ef9175e9b, type: 3}
+  - {fileID: 21300000, guid: 4bec33b482e80904690486a3f71e57c7, type: 3}
+  - {fileID: 21300000, guid: 405519c4d85397b4fa370d1ff17b1df2, type: 3}
+  - {fileID: 21300000, guid: 820b8ed47c3b17a4ca17aea75a397fdc, type: 3}
+  - {fileID: 21300000, guid: af0fd565b7dff7d4098cf13d88e63905, type: 3}
+  - {fileID: 21300000, guid: b48191d5721bc1c4ea432d31e5a78176, type: 3}
+  - {fileID: 21300000, guid: 0a7761e5673ddef4abc40ff6a3c95204, type: 3}
+  - {fileID: 21300000, guid: 27c55a469ea54394fae7c6fe61aefbea, type: 3}
+  - {fileID: 21300000, guid: dfbe68866b0b955459afa3f10488ba2b, type: 3}
+  - {fileID: 21300000, guid: 1bc7dbc663166d347ab5ddd11c9e5d41, type: 3}
+  - {fileID: 21300000, guid: 6275d697b821a34449577567eaf5ca43, type: 3}
+  - {fileID: 21300000, guid: 81cb63083cfe08344aabc2feff59897f, type: 3}
+  - {fileID: 21300000, guid: 14fa0898ca11d6f448a4816da3bb7d17, type: 3}
+  - {fileID: 21300000, guid: cfe6d9e801d079f44bb9ca501033ad94, type: 3}
+  - {fileID: 21300000, guid: 1b39df1954b0f9549b0b3c4b07d904cf, type: 3}
+  - {fileID: 21300000, guid: 04e2fb29b6137f644a5971fa670cac55, type: 3}
+  - {fileID: 21300000, guid: 04654da952ba8ab459870e33698df075, type: 3}
+  - {fileID: 21300000, guid: 5850d8c99c75faa41b874e1b4a8cbfd4, type: 3}
+  - {fileID: 21300000, guid: 28d802da8c65b01458ed86d3df56b58e, type: 3}
+  - {fileID: 21300000, guid: 53f9614d1cb498741823da27f3e4d739, type: 3}
+  - {fileID: 21300000, guid: c623e6de1f4ac12408905764f299c522, type: 3}
+  - {fileID: 21300000, guid: be667c0fe26344b4fa73565f25a527b3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tea
+  - burritos
+  - omelette
+  - pancakes
+  - bread_roll
+  - marchell-manuputty-OM4gevUrEmA-unsplash
+  - cola
+  - cake
+  - cocktail
+  - hotdog
+  - fried_egg
+  - gyro
+  - icycle
+  - donut
+  - ice_cream
+  - swiss_cheese
+  - pudding
+  - popcorn
+  - french_toast
+  - cookie
+  - fried_chicken
+  - cupcake
+  - pie_1
+  - sushi
+  - onigiri
+  - burger
+  - taco
+  - sundae
+  - lime_pie
+  - croissants
+  - beer
+  - frappuccinos
+  - crackers
+  m_RenderDataMap: {}
+  m_Tag: Food Icons
+  m_IsVariant: 0
