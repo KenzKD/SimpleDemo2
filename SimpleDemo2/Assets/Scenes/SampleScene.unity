@@ -1678,11 +1678,11 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: d5c4ee3c610a3d542a7a233dd3caa9c8, type: 3}
     gameBgm: 0
   sfx:
-  - clip: {fileID: 8300000, guid: b825ed47b992c194da41de8a02b4f581, type: 3}
+  - clip: {fileID: 8300000, guid: f72e90eed2fbe54448d6815094007e42, type: 3}
     gameSfx: 0
   - clip: {fileID: 8300000, guid: d5d7f11c5bc6e5943b69ea2ab8dfa1ff, type: 3}
     gameSfx: 1
-  - clip: {fileID: 8300000, guid: f72e90eed2fbe54448d6815094007e42, type: 3}
+  - clip: {fileID: 8300000, guid: 9587ee81427ea5f46b89b2b5b48c94c0, type: 3}
     gameSfx: 2
   - clip: {fileID: 8300000, guid: fc05b25a1d8578a4caa9c0a68c993493, type: 3}
     gameSfx: 3
