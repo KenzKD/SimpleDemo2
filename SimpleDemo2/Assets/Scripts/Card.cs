@@ -35,6 +35,7 @@ public class Card : MonoBehaviour
 
     public void FlipCard()
     {
+        CardsManager.Instance.CheckCardMatch(this);
         _cardFlipSequence = DOTween.Sequence();
         _cardFlipSequence.AppendCallback(() => AudioManager.Instance.PlaySfx(GameSfx.Flip));
         _cardFlipSequence.AppendCallback(() => _cardButton.interactable = false);
@@ -54,9 +55,7 @@ public class Card : MonoBehaviour
 
     public void MatchedCard()
     {
-        _card.DOKill();
-        _card.rotation = Quaternion.Euler(0, 180, 0);
-        // StartingPosition();
+        StartingPosition();
         _card.DOShakeRotation(CARD_RESET_TIME, new Vector3(0, -1, 3), 10, 90, true, ShakeRandomnessMode.Harmonic);
     }
 

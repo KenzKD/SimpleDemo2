@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
         gamePanel.SetActive(true);
         SetGameIsStarted(true);
         AudioManager.Instance.PlayMenuSfx(GameSfx.Start);
+        CardsManager.Instance.CreatePairings();
     }
 
     public void LoadGame()
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
         introPanel.SetActive(false);
         gamePanel.SetActive(true);
 
+        CardsManager.Instance.LoadPairings();
     }
 
     public void Restart()
@@ -65,8 +67,9 @@ public class GameManager : MonoBehaviour
 
         introPanel.SetActive(true);
         gamePanel.SetActive(false);
+        CardsManager.Instance.LoadToggleGroup();
         SetGameIsStarted(false);
-        AudioManager.Instance.PlayMenuSfx(GameSfx.Click);
+        CardsManager.Instance.ClearGrid();
     }
 
     private void Quit()

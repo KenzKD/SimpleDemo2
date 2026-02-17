@@ -432,6 +432,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1180499847}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayMenuSfx
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &275508371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,12 +900,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1401587210}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
@@ -1297,12 +1353,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1401587210}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
@@ -1415,12 +1515,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1401587210}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
@@ -1646,6 +1790,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05de9d1c87101aa49b7dbe427254de9b, type: 3}
+--- !u!114 &1110404199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1818449306143215905, guid: 05de9d1c87101aa49b7dbe427254de9b, type: 3}
+  m_PrefabInstance: {fileID: 1110404196}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1180499845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,6 +1811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180499846}
   - component: {fileID: 1180499849}
+  - component: {fileID: 1180499850}
   - component: {fileID: 1180499847}
   - component: {fileID: 1180499848}
   m_Layer: 0
@@ -1730,9 +1886,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingsFileName: Settings.json
   settings:
+    gridPattern: 0
     noOfMatches: 0
     noOfTurns: 0
     gameIsStarted: 0
+    cardData: []
 --- !u!114 &1180499849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,6 +1905,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   introPanel: {fileID: 635504418}
   gamePanel: {fileID: 567517033}
+--- !u!114 &1180499850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180499845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3cbf105246d6a48b385647b0c415fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - {fileID: 21300000, guid: 53f9614d1cb498741823da27f3e4d739, type: 3}
+  - {fileID: 21300000, guid: 1d95af61f5ce41f4aa26004ea4da18ea, type: 3}
+  - {fileID: 21300000, guid: 1b39df1954b0f9549b0b3c4b07d904cf, type: 3}
+  - {fileID: 21300000, guid: 111d8a2004ad7c64d896aac67f9cd420, type: 3}
+  - {fileID: 21300000, guid: 1e7835c1be096024c972062ba496979b, type: 3}
+  - {fileID: 21300000, guid: adbac342c68e9884cb271c95e389e8eb, type: 3}
+  - {fileID: 21300000, guid: 4918f181bb854f7429b53874e3c377e4, type: 3}
+  - {fileID: 21300000, guid: dfbe68866b0b955459afa3f10488ba2b, type: 3}
+  - {fileID: 21300000, guid: be667c0fe26344b4fa73565f25a527b3, type: 3}
+  - {fileID: 21300000, guid: 28d802da8c65b01458ed86d3df56b58e, type: 3}
+  - {fileID: 21300000, guid: 6275d697b821a34449577567eaf5ca43, type: 3}
+  - {fileID: 21300000, guid: 405519c4d85397b4fa370d1ff17b1df2, type: 3}
+  - {fileID: 21300000, guid: c623e6de1f4ac12408905764f299c522, type: 3}
+  - {fileID: 21300000, guid: 27c55a469ea54394fae7c6fe61aefbea, type: 3}
+  - {fileID: 21300000, guid: 1bc7dbc663166d347ab5ddd11c9e5d41, type: 3}
+  - {fileID: 21300000, guid: 5bfed6a37f0ae2c4db86b6641af3ad61, type: 3}
+  - {fileID: 21300000, guid: 0b33ad748a379d64386ea91ef9175e9b, type: 3}
+  - {fileID: 21300000, guid: b05044629f22ba5479e9354476b893a7, type: 3}
+  - {fileID: 21300000, guid: 820b8ed47c3b17a4ca17aea75a397fdc, type: 3}
+  - {fileID: 21300000, guid: 4bec33b482e80904690486a3f71e57c7, type: 3}
+  - {fileID: 21300000, guid: 5850d8c99c75faa41b874e1b4a8cbfd4, type: 3}
+  - {fileID: 21300000, guid: 573576c0f79a0374db1286c49f2db185, type: 3}
+  - {fileID: 21300000, guid: cfe6d9e801d079f44bb9ca501033ad94, type: 3}
+  - {fileID: 21300000, guid: e3b46c61bcc83e74bace2f4f7f0c0c14, type: 3}
+  - {fileID: 21300000, guid: 81cb63083cfe08344aabc2feff59897f, type: 3}
+  - {fileID: 21300000, guid: 0a7761e5673ddef4abc40ff6a3c95204, type: 3}
+  - {fileID: 21300000, guid: b48191d5721bc1c4ea432d31e5a78176, type: 3}
+  - {fileID: 21300000, guid: 04654da952ba8ab459870e33698df075, type: 3}
+  - {fileID: 21300000, guid: 14fa0898ca11d6f448a4816da3bb7d17, type: 3}
+  - {fileID: 21300000, guid: af0fd565b7dff7d4098cf13d88e63905, type: 3}
+  - {fileID: 21300000, guid: 04e2fb29b6137f644a5971fa670cac55, type: 3}
+  - {fileID: 21300000, guid: 688692208ef550f448e2347ce2d8a2a2, type: 3}
+  matchesTMP: {fileID: 1110404199}
+  turnsTMP: {fileID: 1673808246}
+  restartButton: {fileID: 275508368}
+  gridVariations:
+  - gridPattern: 0
+    gridSize: {x: 2, y: 2}
+  - gridPattern: 1
+    gridSize: {x: 2, y: 3}
+  - gridPattern: 2
+    gridSize: {x: 3, y: 4}
+  - gridPattern: 3
+    gridSize: {x: 4, y: 4}
+  - gridPattern: 4
+    gridSize: {x: 5, y: 6}
+  difficultyToggleGroup: {fileID: 1401587209}
+  boardParent: {fileID: 2040608335}
+  cardColumn: {fileID: 4914249396670804115, guid: 89449c8ebf7f9e440bdf919cb067f635, type: 3}
+  cardPrefab: {fileID: 5448634693203323528, guid: 4519f6291b0f5fe44ac05f0d420e130d, type: 3}
 --- !u!1 &1335972082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,12 +2332,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1401587210}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
@@ -2230,6 +2495,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05de9d1c87101aa49b7dbe427254de9b, type: 3}
+--- !u!114 &1673808246 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1818449306143215905, guid: 05de9d1c87101aa49b7dbe427254de9b, type: 3}
+  m_PrefabInstance: {fileID: 1673808243}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1724217533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,8 +2906,48 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1401587210}
     - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308884536848642979, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1180499850}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectGridPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773539708443111855, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed828041a280614499d1bf379c2bd2fc, type: 3}

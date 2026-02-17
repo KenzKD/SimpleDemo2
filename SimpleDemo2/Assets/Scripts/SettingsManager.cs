@@ -6,9 +6,11 @@ using UnityEngine;
 [Serializable]
 public class Settings
 {
+    public GridPattern gridPattern;
     public int noOfMatches;
     public int noOfTurns;
     public bool gameIsStarted;
+    public List<CardData> cardData = new();
 }
 
 public class SettingsManager : MonoBehaviour

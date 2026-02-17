@@ -136,6 +136,15 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning($"SFX Sound '{sfxName}' not found!");
     }
 
+    public void PlayMenuSfx(int index)
+    {
+        SoundSfx sfxClip = sfx[index];
+        if (sfxClip != null && sfxClip.clip != null)
+            menuSource.PlayOneShot(sfxClip.clip);
+        else
+            Debug.LogWarning($"SFX Sound '{sfx[index].gameSfx}' not found!");
+    }
+
     public void PlayLoopingSfx(GameSfx sfxName, bool sfxAllowOverlap = false)
     {
         SoundSfx sfxClip = sfx.FirstOrDefault(s => s.gameSfx == sfxName);
