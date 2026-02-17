@@ -419,7 +419,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 275508371}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1180499849}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &275508371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1130,7 +1142,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 847883978}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1180499849}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: NormalStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &847883978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,7 +1655,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1180499846}
+  - component: {fileID: 1180499849}
   - component: {fileID: 1180499847}
+  - component: {fileID: 1180499848}
   m_Layer: 0
   m_Name: GameManagers
   m_TagString: Untagged
@@ -1690,6 +1716,37 @@ MonoBehaviour:
     gameSfx: 4
   - clip: {fileID: 8300000, guid: 7a3eb1add884aa14f86f507e48ce1eda, type: 3}
     gameSfx: 5
+--- !u!114 &1180499848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180499845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1c35bac31fbdb4087268fc201c2458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingsFileName: Settings.json
+  settings:
+    noOfMatches: 0
+    noOfTurns: 0
+    gameIsStarted: 0
+--- !u!114 &1180499849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180499845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee4bf672bfa03c40bacc5e54ca4ae1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introPanel: {fileID: 635504418}
+  gamePanel: {fileID: 567517033}
 --- !u!1 &1335972082
 GameObject:
   m_ObjectHideFlags: 0
