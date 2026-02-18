@@ -1,7 +1,7 @@
 {
-  "gridPattern": 0,
-  "noOfMatches": 0,
-  "noOfTurns": 0,
-  "gameIsStarted": false,
-  "cardData": []
+    "gridPattern": 0,
+    "noOfMatches": 0,
+    "noOfTurns": 0,
+    "gameIsStarted": false,
+    "cardData": []
 }
